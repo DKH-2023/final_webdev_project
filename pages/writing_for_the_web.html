@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Josefin+Sans&family=Lobster&family=Salsa&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/35133f872f.js" crossorigin="anonymous"></script> 
+    <title>Final Web Development Course Project - DKH 2023</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top hidden-xs">
+  <div class="container-fluid hidden-xs">
+    <a class="navbar-brand" href="../index.html">Simply Content</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapsebar navbar-collapse justify-content-end hidden-xs" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto hidden-xs nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="writing_for_the_web.html">Writing for the Web</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="accessibility.html">Accessibility</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tools_and_resources.html">Tools &amp; Resources</a>
+        </li>
+        <li>
+          <a class="nav-link" href="javascript:void(0)" id="contact">Contact</a>
+          <div id="contactForm">
+            <h1>Keep in touch!</h1>
+            <small>I'll get back to you as quickly as possible</small>
+            <form action="#">
+              <input placeholder="Name" type="text" required />
+              <input placeholder="Email" type="email" required />
+              <input placeholder="Subject" type="text" required />
+              <textarea class="resize-none" placeholder="Comment"></textarea>
+              <div></div>
+              <input class="formBtn" type="submit" />
+              <input class="formBtn" type="reset" />
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <a href="#" class="navbar-brand"></a>
+  <button type="button" class="btn btn-lg ml-auto mybutton" data-theme-toggle>
+  <span class="icon-toggle" aria-hidden="true">
+    <i class="fa-solid fa-sun"></i>
+    <i class="fa-solid fa-moon"></i>
+  </span>
+  </button>
+</header>
+<body>
+    <div class="d-flex bodystart">
+        <div class="row">
+            <div class="my-auto col-xl-6 col-lg-6 col-md-12 col px-5">
+                    <h1 id="heading" class="display-3 col d-flex">Writing for the web</h1>
+                    <h2 class="col d-flex">It's not rocket surgery</h2>
+                    <p class="text-break lead">This website is my work in progress guide to writing web content.</p>
+                    <p class="text-break">Maybe you're a blogger, own a small business, or just someone looking to share your passion.</p>
+                    <p>As long as you are aiming to write for the web, you should &ndash; at the very least &ndash; find something useful on these pages.</p>
+                    <p class="text-break">So, let's dive in and explore the key principles and best practices for writing web content.</p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 px-lg-4 justify-content-center d-flex">
+                <img src="../img/Thrills.png" alt="neon arrow with text: Thrills. Points to below content." class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="accordion bodystart container-fluid accordion-flush px-5" id="accordionRules">
+        <div class="accordion-item"> 
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Key principles of content writing
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionRules">
+            <div class="accordion-body">
+              <div class="lead text-break">Uncover the core of great web content.</div> 
+              <div class="space"></div>
+              <div>These 5 simple rules are the pillars that will set your content apart in the digital world.</div>
+              <div class="space"></div>
+              <div>Don't worry if they don't seem "simple" to begin with. They won't. They take practice.</div>
+              <div class="space"></div>
+              <div>Be patient and never expect to be perfect. Perfection is impossible.</div>
+              <div class="space"></div>
+              <div>Luckily, your users don't need you to be perfect.</div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Be clear
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionRules">
+            <div class="accordion-body">
+              <div class="lead">Keep it simple. Don't hide what your users are looking for.</div>
+              <div class="space"></div>
+              <div>Write in short paragraphs. Usually only one or two sentences a paragraph.</div>
+              <div class="space"></div>
+              <div>People process information in chunks. Smaller chunks are easier to process.</div>
+              <div class="space"></div>
+              <div>Website users are not normally reading every word. They are looking for the answer to a question, or the next step in their journey.</div>
+              <div class="space"></div>
+              <div>Content with short paragraphs is easier to scan.</div>
+              <div class="space"></div>
+              <div>People:
+                <ul>
+                  <li>are more likely to find what they are looking for</li>
+                  <li>usually don&rsquo;t mind scrolling to find what they are looking for</li>
+                </ul>
+              </div>
+              <div class="space"></div>
+              <div>So even if it seems strange to you, writing in short paragraphs is usually best for your users.</div>
+              <div class="space"></div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Be concise
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionRules">
+            <div class="accordion-body">
+              <div class="lead">Being concise means leaving out things that don&rsquo;t help the user.</div>
+              <div class="space"></div>
+              <div>Concise writing is clear and does not include unnecessary or unclear words or language.</div>
+              <div class="space"></div>
+              <div>It can be tempting to make your writing sound more professional or academic by adding extra words. Resist the temptation.</div>
+              <div class="space"></div>
+              <div>Such "fluff" can be damaging for the user experience. It slows users down. It frustrates them. They may simply give up.</div>
+              <div class="space"></div>
+              <div>Focus on what the reader needs to know. No more, no less.</div>
+              <div class="space"></div>
+              <div>A word of caution: If you&rsquo;re cutting your content because it&rsquo;s too long, ask yourself:</div>
+              <div class="space"></div>
+              <div>
+                <ul>
+                  <li>Is this something the reader needs to know?</li>
+                  <li>Is this the most concise way of saying it?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                Be useful
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionRules">
+              <div class="accordion-body">
+                <div class="lead">Being useful means that the information is of use to your audience.</div>
+                <div class="space"></div>
+                <div>This should be obvious, but... well, I can't be the only one to have experienced some pretty useless content.</div>
+                <div class="space"></div>
+                <div>Your job is to provide information that your users want to know.</div>
+                <div class="space"></div>
+                <div>This may even be boring content. User-friendly content often is.</div>
+                <div class="space"></div>
+                <div>It is not designed to entertain.</div>
+                <div class="space"></div>
+                <div>It is designed to help users solve their problem.</div>
+                <div class="space"></div>
+                <div>Remember: content is interesting to people if it is relevant to them.</div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                Be consistent
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionRules">
+              <div class="accordion-body">
+                <div class="lead">Being consistent means using the same style and rules throughout your content.</div>
+                <div class="space"></div>
+                <div>This does not mean every page should be a carbon copy of the other.</div>
+                <div class="space"></div>
+                <div>It makes your website easy to understand and navigate.</div>
+                <div class="space"></div>
+                <div>When things look and work the same way every time, people can find what they need quickly, and they know what to expect.</div>
+                <div class="space"></div>
+                <div>It helps your website look professional and trustworthy, too.</div>
+                <div class="space"></div>
+                <div>Being consistent in web writing is like following a clear path, making the online experience better for everyone.</div>
+                <div class="space"></div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                Be empathetic
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionRules">
+              <div class="accordion-body">
+                <div class="lead">Make the user the hero of the story.</div>
+                <div class="space"></div>
+                <div>Bad content says what you want to say. It makes you the hero of the story.</div>
+                <div class="space"></div>
+                <div>Good content says what the user needs to know.</div>
+                <div class="space"></div>
+                <div>Always think about your users - what do they want to know?</div>
+                <div class="space"></div>
+                <div>Tell them that. Put yourself second.</div>
+                <div class="space"></div>
+                <div>Make the user the hero of your story.</div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div id="pinkelephant" class="row bodystart">
+          <hr>
+            <div class="col-xl-4 col-lg-4 col-md-4 px-lg-4 justify-content-center">
+                <img src="../img/simple.jpg" alt="mobile phone message about design" class="img-fluid container-fluid" width=60% height=60%>
+            </div>
+            <div class="my-auto col-xl-8 col-lg-8 col-md-8 col px-5">
+              <h2 id="heading" class="display-3 col d-flex">Don't think of a pink elephant!</h2>
+              <h3 class="col text-center d-flex">Things to be mindful of... so that you can avoid them</h3>
+              <div>Personally, I don't like telling people what not to do. Mainly because it calls attention to it.</div>
+              <div class="space"></div>
+              <div>Forbidden things are tempting.</div>
+              <div class="space"></div>
+              <div>But there are various things that you may do without realising their consequences. So here's an overview of the beartraps and how to avoid them.</div>
+            </div>
+        </div>
+    </div>
+    <div class="bodystart px-5">
+      <div id="myCarousel" class="carousel slide bodystart h-100" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-bs-slide-to="1"></li>
+          <li data-target="#myCarousel" data-bs-slide-to="2"></li>
+          <li data-target="#myCarousel" data-bs-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active bodystart h-50">
+            <div class="row">
+              <div class="col-sm-3">
+                  <div class="card">
+                    <div class="card-body negative-card">
+                      <h4 class="card-title">Avoid "click here"</h4>
+                      <p class="card-text">Using "click here" for a link isn't helpful because it doesn't tell users where the link leads. Descriptive link text is better because it guides users and improves <a href="../pages/accessibility.html" target="_blank">accessibility.</a></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Link text should be descriptive</h4>
+                      <p class="card-text">To write descriptive link text, use words that explain where the link will take you. This helps users understand the destination before clicking.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                    <div class="card-body negative-card">
+                      <h4 class="card-title">Avoid "see above"</h4>
+                      <p class="card-text">Most users scan content. Telling them to look above &ndash; or below &ndash; means they have to go back over content.</p>
+                      <p class="card-text">It forces them to hunt for the relevant part.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Structure your content</h4>
+                      <p class="card-text">Group information together.</p>
+                      <p class="card-text">You could use:
+                        <ul>
+                          <li>clear headings</li>
+                          <li>short paragraphs</li>
+                          <li>bulleted lists</li>
+                        </ul>
+                      </p>
+                      <p class="card-text">If you do need to send the user away to the information, give them a link to follow.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      <div class="carousel-item bodystart h-100">
+        <div class="row">
+          <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body negative-card">
+                  <h4 class="card-title">Avoid Frequently Asked Questions (FAQS)</h4>
+                        <p class="card-text">Bad content: making up some frequently asked questions and sticking them together in an unstructured list.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Answer those questions in your content</h4>
+                        <p class="card-text">Good content: finding out what the most frequently asked questions really are, then putting the answers where people expect to find them.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body negative-card">
+                  <h4 class="card-title">Don't make people think</h4>
+                  <p class="card-text">People want to find the right web page quickly and efficiently. If they have to stop and think along the way, it is not efficient or quick.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">The smoothness of the path is more important than the number of clicks</h4>
+                  <p class="card-text">The "3 click rule" is a myth.</p>
+                  <p class="card-text">If people are moving steadily on a successful path, they won't realise if it took them 4 or 5 clicks instead of 3.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item bodystart h-100">
+          <div class="row">
+              <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body negative-card">
+                      <h4 class="card-title">Avoid "Please"</h4>
+                      <p class="card-text">Please note that, the first three words of this sentence did nothing but slow you down.</p>
+                      <p class="card-text">Or perhaps it made you think I was going to tell you something important? Isn't all of the content important?</p>
+                      <p class="card-text">It hides what you are trying to say. It pushes meaningful words further down the sentence.</p>
+                      <p class="card-text">I love manners, but I'd recommend removing this word wherever you see it.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Be precise</h4>
+                      <p class="card-text">Use clear and direct language to make requests or provide information.</p>
+                      <p class="card-text">For example:
+                        <ul>
+                          <li>Instead of "Please enter your name:"</li>
+                          <li>Use: "Enter your name:"</li>
+                        </ul>
+                      </p>
+                      <p>Both are polite. The second is quicker and easier to read.</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item bodystart h-100">
+          <div class="row">
+              <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body negative-card">
+                      <h4 class="card-title">Avoid filler words</h4>
+                      <p class="card-text">Example: "We will be happy to answer any questions you may have"</p>
+                      <p class="card-text">Ah, so you won't ask the questions that I don't have? Phew!</p>
+                      <p class="card-text">I have a list of word and phrases I want to remove from the internet, including:
+                        <ul>
+                          <li>"Future plans". They are just "plans"</li>
+                          <li>"Utilise". You mean "use"</li>
+                          <li>"What we've done <span style="font-style: italic";>in the past"</span>. The verb is already in the past tense. Say no more.</li>
+                          <li>"Free gift". When is a gift not free?</li>
+                        </ul>
+                        Some may seem controversial, but I make no apologies!</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Be direct</h4>
+                      <p class="card-text">Krug's third law of usability: Get rid of half the words on each page. Then get rid of half of what's left.</p>
+                      <p class="card-text">3 key benefits of removing the waffle:
+                        <ul>
+                          <li>It reduces the noise level of the page</li>
+                          <li>It makes the useful content more prominent</li>
+                          <li>It makes pages shorter. Users can see more of the page at a glance without scrolling</li>
+                        </ul>
+                      </p>
+                      <p class="card-text">Credit to Steve Krug - see <a href="tools_and_resources.html">Tools and Resources</a> for details</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        </div>
+        <div class="carousel-indicators" id="controls">
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="../js/interact.js"></script>        
+</body>
+<footer class="bodystart">
+  <h4 class="text-center">"We need to stop interrupting what people are interested in and be what people are interested in."</h4>
+  <p class="text-center">- Craig Davis</p>
+  </footer>
+</html>

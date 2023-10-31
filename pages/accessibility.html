@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Josefin+Sans&family=Lobster&family=Salsa&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/35133f872f.js" crossorigin="anonymous"></script> 
+    
+    <title>Final Web Development Course Project - DKH 2023</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top hidden-xs">
+  <div class="container-fluid hidden-xs">
+    <a class="navbar-brand" href="../index.html">Simply Content</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapsebar navbar-collapse justify-content-end hidden-xs" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto hidden-xs nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="writing_for_the_web.html">Writing for the Web</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="accessibility.html">Accessibility</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tools_and_resources.html">Tools &amp; Resources</a>
+        </li>
+        <li>
+          <a class="nav-link" href="javascript:void(0)" id="contact">Contact</a>
+          <div id="contactForm">
+            <h1>Keep in touch!</h1>
+            <small>I'll get back to you as quickly as possible</small>
+            <form action="#">
+              <input placeholder="Name" type="text" required />
+              <input placeholder="Email" type="email" required />
+              <input placeholder="Subject" type="text" required />
+              <textarea class="resize-none" placeholder="Comment"></textarea>
+              <div></div>
+              <input class="formBtn" type="submit" />
+              <input class="formBtn" type="reset" />
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <a href="#" class="navbar-brand"></a>
+  <button type="button" class="btn btn-lg ml-auto mybutton" data-theme-toggle>
+  <span class="icon-toggle" aria-hidden="true">
+    <i class="fa-solid fa-sun"></i>
+    <i class="fa-solid fa-moon"></i>
+  </span>
+  </button>
+</header>
+  <body class="bodystart">
+    <div class="d-flex bodystart">
+      <div class="row">
+          <div class="my-auto col-xl-6 col-lg-6 col-md-12 col px-5">
+              <h1 id="heading" class="display-3 col d-flex">Accessibility</h1>
+              <h2 class="col d-flex">Never underestimate the power of accessibility!</h2>
+              <p class="text-break">Read this page to discover:
+                <ul>
+                  <li>what accessibility is</li>
+                  <li>why it matters</li>
+                  <li>how you can make your content accessible</li>
+                </ul>
+              </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 px-lg-4 justify-content-center d-flex">
+              <img src="../img/think.jpg" alt="neon sign which reads think about things differently" class="img-fluid" width=60% height=60%>
+          </div>
+      </div>
+    </div>
+    <div class="bodystart px-5">
+      <hr>
+      <h2 class="key-subheading">What is accessibility?</h2>
+      <figure>
+        <blockquote class="blockquote">
+          <p>Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them.</p>
+          <p>More specifically, people can:</p>
+          <ul>
+            <li>perceive, understand, navigate and interact with the web</li>
+            <li>contribute to the web</li>
+        </blockquote>
+        <figcaption class="blockquote-footer text-end">
+          The World Wide Web Consortium (W3C)
+        </figcaption>
+      </figure>
+      <div class="space"></div>
+      <div>
+        <p class="lead">Accessibility involves a wide range of disabilities, including visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities.</p>
+        <p>Keep reading for information about Web Content Accessibility Guidelines (WCAG)... spoiler: they are really important!</p>
+        </p>
+      </div>
+      <div class="bodystart">
+        <hr>
+        <div class="row">
+          <div class="col-xl-8 col-lg-8 col-md-12 px-5">
+            <div class="accordion bodystart container-fluid accordion-flush" id="accordionRules">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Why bother with accessibility?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionRules">
+                  <div class="accordion-body">
+                    <div class="lead">For many, "accessibility" sounds like hard work. Or at least, extra work. No-one likes that.</div> 
+                    <div class="space"></div>
+                    <div>Accessibility is not an "add-on" or something that is "nice to have."</div>
+                    <div class="space"></div>
+                    <div>It's essential and should be at the front of anyone's mind when writing for the web.</div>
+                    <div class="space"></div>
+                    <div>These 6 reasons should be more than enough to convince you that it is worth it.</div>
+                    <div class="space"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Disabilities affect many more people than you may think
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionRules">
+                  <div class="accordion-body">
+                    <div class="lead">It is not about just a few individuals, it affects many of us.</div> 
+                    <div class="space"></div>
+                    <div>An estimated 16.0 million people in the UK had a disability in 2021/22. This represents 24% of the total population.</div>
+                    <div class="space"></div>
+                    <div>Sometimes the challenges are not obvious and there are things that can make life easier for everyone.</div>
+                    <div class="space"></div>
+                    <div>Accessibility is about understanding that everyone is different and making sure technology works for all of us.</div>
+                    <div class="space"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    It's good business
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionRules">
+                  <div class="accordion-body">
+                    <div class="lead">Accessibility helps reach more customers and builds trust.</div> 
+                    <div class="space"></div>
+                    <div>When your site is accessible, it's easier for more people to use, which means a larger customer base.</div>
+                    <div class="space"></div>
+                    <div>It shows that your business cares about all customers, building trust and loyalty.</div>
+                    <div class="space"></div>
+                    <div>Accessibility can also lower legal risks and may improve your site's visibility in search engines.</div>
+                    <div class="space"></div>
+                    <div>It's a smart business move that leads to a broader audience, better user experiences, and improved results.</div>
+                    <div class="space"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    The number of people with disabilities &ndash; and income to spend &ndash; is likely to increase
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionRules">
+                  <div class="accordion-body">
+                    <div class="lead">This a huge opportunity for businesses.</div> 
+                    <div class="space"></div>
+                    <div>When businesses make things easy for everyone, they attract more customers.</div>
+                    <div class="space"></div>
+                    <div>More customers means more income.</div>
+                    <div class="space"></div>
+                    <div>So even if it costs time and money, accessibility is profitable in the long-run.</div>
+                    <div class="space"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    The web plays an important role and has significant benefits for people with disabilities
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionRules">
+                  <div class="accordion-body">
+                    <div class="lead">The internet is really important for people with disabilities, and it brings real advantages.</div> 
+                    <div class="space"></div>
+                    <div>It&rsquo;s a place where they can find information, connect with others, and do lots of things they couldn&rsquo;t do before.</div>
+                    <div class="space"></div>
+                    <div>For those who face physical or sensory challenges, the web becomes a bridge to a more accessible world. It opens up a world of opportunities.</div>
+                    <div class="space"></div>
+                    <div>Embracing web accessibility isn&rsquo;t just a choice; it&rsquo;s a pathway to a fairer and more inclusive digital future where everyone can benefit.</div>
+                    <div class="space"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Improving accessibility improves usability for all users
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionRules">
+                  <div class="accordion-body">
+                    <div class="lead">The benefits of being accessible are not limited to the those with disabilities.</div> 
+                    <div class="space"></div>
+                    <div>For example:
+                      <ul>
+                        <li>Closed captions were created to support people with visual impairments. They are useful in noisy and quiet settings. They improve comprehension, especially for non-native speakers.</li>
+                        <li>Voice recognition technology was developed to support people with mobility or visual impairments. Now we can all benefit from hands-free control of devices.</li>
+                        <li>High contrast themes and large text were designed for the visually impaired. They make it easier for everyone to read content in different lighting conditions and on different devices.</li>
+                        <li>Alt text for images intended for screen readers helps search engines understand image content. It also gives contecxt to users when images fail to load.</li>
+                        <li>The ability to zoom in on a map or magnify a font was created for people with low vision.</li>
+                        <li>Keyboard navigation was designed for users who cannot use a mouse. Some people prefer to navigate websites without taking their hands off the keyboard. It&rsquo;s also handy if your mouse breaks.</li>
+                        <li>Simplified design, intended to support users with cognitive difficulties, improves usability for all. With less "noise", users can focus on understanding the content.</li>
+                        <li>Text-to-speech was designed for the visually impaired. Now everyone can take in content passively, without having to read it themselves.</li>
+                        <li>The average reading age of the UK adult population is 9 years old. So using simple words and shorter sentences is sensible. If you want to be understood.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    It's morally the right thing to do
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionRules">
+                  <div class="accordion-body">
+                    <div class="lead">Accessibility improves people&rsquo;s lives.</div> 
+                    <div class="space"></div>
+                    <div>This is the strongest argument for accessibility.</div>
+                    <div class="space"></div>
+                    <div>Perhaps it&rsquo;s the only argument anyone needs to hear.</div>
+                    <div class="space"></div>
+                    <div>Think about this: blind people with access to a computer can now access almost every newspaper or magazine on their own.</div>
+                    <div class="space"></div>
+                    <div> Accessibility isn&rsquo;t just a feature; it&rsquo;s a fundamental human right that promotes inclusivity, equity, and dignity for everyone.</div>
+                    <div class="space"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 px-5 d-flex align-items-center">
+            <div class="text-center" style="height:100%">
+              <img src="../img/accessibility.jpg" alt="Wheelchair ramp sign in green grass" class="img-fluid mx-auto">
+              <div class="space"></div>
+            <h3 class="key-subheading">Accessibility helps everyone</h3>
+            <p class="text-break">Accessibility is about making sure that people with disabilities do not get left out.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bodystart">
+        <hr>
+        <h2 class="key-subheading">How to make your content accessible</h2>
+        <p class="lead">Long-term, use WCAG. Short-term, easy wins.</p>
+        <h3>The official guidelines</h3>
+        <p class="lead">If you are not already familiar with the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG)</a>, make it your mission to get familiar. Quickly.</p>
+        <p>Accessibility involves a wide range of disabilities, including visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities.</p>
+        <p>WCAG is a set of guidelines and standards developed by the Web Accessibility Initiative (WAI) of W3C.</p>
+        <p>The primary purpose of WCAG is to make web content more accessible. The guidelines and success criteria are categorised into four principles:
+          <ul>
+            <li>Perceivable: Information and user interface components must be presented in a way that can be perceived by all users, regardless of their abilities.</li>
+            <li>Operable: User interface components and navigation must be operable by a wide range of users, including those with disabilities.</li>
+            <li>Understandable: Information and the operation of the user interface must be clear and understandable to all users.</li>
+            <li>Robust: Content must be robust enough to work with current and future technologies, ensuring its longevity and adaptability.</li>
+          </ul>
+        </p>
+        <hr>
+        <h3>Quick wins</h3>
+        <p class="lead">Here are some simple ways to make your existing content more accessible:</p>
+        <div id="tipsCarousel" class="carousel slide bodystart h-100" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#tipsCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-target="#tipsCarousel" data-bs-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active bodystart h-50" data-bs-interval="10000">
+              <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Alt text</h4>
+                        <p class="card-text lead">Add appropriate alt text to every image.</p>
+                        <p class="card-text">Add an empty (or"null") alt text for images that screen readers should ignore.</p>
+                        <p class="card-text">Add helpful, descriptive text for the rest.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Use headings correctly.</h4>
+                        <p class="card-text lead">Heading hierarchy helps people using screen readers to understand and navigate your content.</p>
+                        <p class="card-text">Use:
+                          <ul>
+                            <li>&lt;h1&gt; for the page title</li>
+                            <li>&lt;h2&gt; for the major section headings</li>
+                            <li>&lt;h3&gt; for sub-headings, and so on</li>
+                          </ul>
+                          Then use CSS to style as required.
+                        </p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Make forms work with screen readers</h4>
+                        <p class="card-text lead">Use the HTML &lt;label&gt; element to link the fields with their text labels.</p>
+                        <p class="card-text">People using screen readers then know what they need to enter.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Be keyboard friendly</h4>
+                        <p class="card-text lead">All content should be accessible by keyboard.</p>
+                        <p class="card-text">Not everyone can use a mouse.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item bodystart h-50">
+              <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Colour contrast matters</h4>
+                        <p class="card-text lead">Colour contrast is crucial for anyone with limited eyesight or colour blindness.</p>
+                        <p class="card-text">Make sure there is a strong contrast between the text and background colours.</p>
+                        <p class="card-text">Remember: If someone can't read your content, it does not matter how "pretty" your site looks.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Give hyperlinks unique and descriptive names</h4>
+                        <p class="card-text lead">Visually impaired users can use their screen reader to scan for links on a webpage.</p>
+                        <p class="card-text">So links are often read aloud without context.</p>
+                        <p class="card-text">Visit <a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html" target=”_blank”>WCAG's Link Purpose page</a> for more information.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Video and audio content</h4>
+                        <p class="card-text lead">Turn off auto-play and enable closed captioning.</p>
+                        <p class="card-text">Automatic audio can be alarming and could overpower the voice of a screen reader.</p>
+                        <p class="card-text">Closed captioning and transcripts should also be available for the hearing impaired.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">White space aka negative space</h4>
+                        <p class="card-text lead">This reduces clutter and provides definition.</p>
+                        <p class="card-text">White space has been shown to make reading easier (for everyone).</p>
+                        <p class="card-text">It also improves understanding for those with cognitive difficulties..</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators bodystart" id="controls">
+            <a class="carousel-control-prev" href="#tipsCarousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#tipsCarousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <hr>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../js/interact.js"></script>        
+  </body>
+  <footer class="bodystart">
+    <h4 class="text-center">"If your website is pretty, but useless, it&rsquo;s pretty useless!"</h4>
+    <p class="text-center">- Dee Hill</p>
+    </footer>
+</html>
